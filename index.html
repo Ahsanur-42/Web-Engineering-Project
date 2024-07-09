@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>
-        <marquee behavior="repeat" direction="right" style="color: rgb(62, 32, 211);">Welcome to Pundra University of Science & Technology, Bogura, Bangladesh!</marquee>
+        <marquee behavior="repeat" direction="left" style="color: rgb(30, 72, 146);">Welcome to Pundra University of Science & Technology, Bogura, Bangladesh!</marquee>
     </h1>
     <table align="center">
         <tr>
@@ -34,63 +34,107 @@
     <video src="./WhatsApp Video 2024-07-08 at 21.30.15_952f3a24.mp4"  width="1500" height="680" controls></video>
 
     <h2 style="background-color: rgb(18, 195, 226);" align="center">FILL-UP THIS FORM</h2>
-    <form action="form.php" align="center" style="font-size: larger;">
+    <table align="center">
+        <form action="form.php"  style="font-size: larger;">
 
-        <label for="text" name="name"><strong>Enter your first name: </strong></label>
-        <input type="text" name="name" id="name" placeholder="Enter your first name" required><br><br>
-
-        <label for="text" name="name"><strong>Enter your second name: </strong></label>
-        <input type="text" name="name" id="name" placeholder="Enter your second name" required><br><br>
-
-        <label for="email" name="email"><strong>Enter your E-mail address: </strong></label>
-        <input type="email" name="email" id="email" placeholder="example@gmail.com" required><br><br>
-
-        <label for="phone"><b>Phone Number: </b></label>
-        <input type="tel" id="phone" name="phone" placeholder="01xxxxxxxxx" pattern="01[3-9]\d{8}" required><br><br>
-
-        <label for="password" name="password"><strong>Enter a strong password:</strong></label>
-        <input type="password" name="password" id="password" placeholder="Minimum 8 digits" required><br><br>
-        
-        <h3 style="font-size: xx-large; color: rgb(205, 16, 16);"><b>More Info</b></h3><br>
-
-        <label for="birthdate" name="birthdate"><strong>Enter your birthdate: </strong></label>
-        <input type="date" name="birthdate" id="birthdate" required><br><br>
-
-        <label for="age" name="age"><Strong>Enter your age: </Strong></label>
-        <input type="number" name="age" id="age" placeholder="No negative number" required><br><br>
-
-        <label for="gender" name="gender"><b>Enter your Gender indentity: </b></label>
-        <select name="gender" id="gender" required>
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-            <option value="other">Rather not say</option>
-        </select><br><br>
-
-        <label for="religion" name="religion"><strong>Enter your Religion:</strong></label>
-        <input type="radio" name="religion" id="religion">Islam
-        <input type="radio" name="religion" id="religion">Hindu
-        <input type="radio" name="religion" id="religion">Buddhisth
-        <input type="radio" name="religion" id="religion">Christian
-        <input type="radio" name="religion" id="religion">Othersbr
-        <br><br>
-
-        <label for="hobby" name="hobby"><strong>The hobbies you like most:</strong></label>
-        <input type="checkbox" name="hobby" id="hobby">Coding
-        <input type="checkbox" name="hobby" id="hobby">Sleeping
-        <input type="checkbox" name="hobby" id="hobby">Reading
-        <input type="checkbox" name="hobby" id="hobby">Others
-        <br><br>
-
-        <label for="color" name="color"><strong>Your favourite color:</strong></label>
-        <input type="color"><br><br>
-
-        <label for="message" name="message"><b>About yourself:</b></label><br>
-        <textarea name="message" id="message" cols="30" rows="10" placeholder="Describe within 250 words!" minlength="10" maxlength="250" required></textarea><br><br>
-
-        <input type="reset" value="Reset" >
-        <input type="submit" value="Submit" >
-
-    </form>
+            <tr>
+                <td>
+                    <label for="text" name="name"><strong>Enter your first name: </strong></label>
+                    <input type="text" name="name" id="name" placeholder="Enter your first name" required><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="text" name="name"><strong>Enter your second name: </strong></label>
+                    <input type="text" name="name" id="name" placeholder="Enter your second name" required><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email" name="email"><strong>Enter your E-mail address: </strong></label>
+                    <input type="email" name="email" id="email" placeholder="example@gmail.com" required><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone"><b>Phone Number: </b></label>
+                    <input type="tel" id="phone" name="phone" placeholder="01xxxxxxxxx" pattern="01[3-9]\d{8}" required><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password" name="password"><strong>Enter a strong password:</strong></label>
+                    <input type="password" name="password" id="password" placeholder="Minimum 8 digits" required><br><br>
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    <h3 style="font-size: xx-large; color: rgb(205, 16, 16);"><b>More Info</b></h3><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="birthdate" name="birthdate"><strong>Enter your birthdate: </strong></label>
+                    <input type="date" name="birthdate" id="birthdate" required><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age" name="age"><Strong>Enter your age: </Strong></label>
+                    <input type="number" name="age" id="age" placeholder="No negative number" required><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender" name="gender"><b>Enter your Gender indentity: </b></label>
+                    <select name="gender" id="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Rather not say</option>
+                    </select><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="religion" name="religion"><strong>Enter your Religion:</strong></label>
+                    <input type="radio" name="religion" id="religion">Islam
+                    <input type="radio" name="religion" id="religion">Hindu
+                    <input type="radio" name="religion" id="religion">Buddhisth
+                    <input type="radio" name="religion" id="religion">Christian
+                    <input type="radio" name="religion" id="religion">Othersbr
+                    <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="hobby" name="hobby"><strong>The hobbies you like most:</strong></label>
+                    <input type="checkbox" name="hobby" id="hobby">Coding
+                    <input type="checkbox" name="hobby" id="hobby">Sleeping
+                    <input type="checkbox" name="hobby" id="hobby">Reading
+                    <input type="checkbox" name="hobby" id="hobby">Others
+                    <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="color" name="color"><strong>Your favourite color:</strong></label>
+                    <input type="color"><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="message" name="message"><b>About yourself:</b></label><br>
+                    <textarea name="message" id="message" cols="50" rows="10" placeholder="Describe within 250 words!" minlength="10" maxlength="250" required></textarea><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="reset" value="Reset" >
+                    <input type="submit" value="Submit" >
+                </td>
+            </tr>
+        </form>
+    </table>
     <footer>
         <p>&copy; 2024 Md. Ahsanur Rahaman. All rights reserved.</p>
     </footer>
